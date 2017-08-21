@@ -19,13 +19,16 @@
 	  			<div class="modal-content">
 	    			<form id="userLogin" name="login">
 	    				<label for="userEmail">Employee Email</label><br>
-	    				<input id="userEmail" name="email" type="email" onchange="validateEmail()"><br>
+	    				<input id="userEmail" name="email" type="email" onchange="validateEmail()"><span id="email-error">Please enter a valid email address.</span><br>
 	    				<label for="userPassword">Password</label><br>
 	    				<input id="userPassword" name="password" type="password"><br>
-	    				<input id="userRemeber" type="checkbox" name="remember" value="yes">Remeber me?<br>
-	    				<input id="userSubmit" name="submit" type="button" onclick="closeModal();" value="Log in" disabled>
+	    				<input id="userRemeber" type="checkbox" name="remember">Remeber me?<br>
+	    				<input id="userSubmit" name="submit" type="button" onclick="validateCredintials()" value="Log in" disabled>
 	    			</form>
-	    			<a href="">Trouble logging in?</a>
+	    			<p id="login-error">
+						Something went wrong, please try again.<br>
+	    				<a href="">Trouble logging in?</a>
+	    			</p>
 	  			</div>
 	</main>
 </body>

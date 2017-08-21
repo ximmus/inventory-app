@@ -439,3 +439,9 @@ template {
   color: black;
   text-decoration: none;
   cursor: pointer; }
+
+#email-error {
+  display: none; }
+
+#login-error {
+  display: none; }
