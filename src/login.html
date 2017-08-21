@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<script src="../app.js" defer></script>
+</head>
+<body>
+	<main>
+		<header></header><!-- Will be hidden on login screen.  -->
+		<section>
+			<!-- This will house the login modal -->
+
+			<!-- The login modal -->
+			<div id="login-modal" class="modal">
+
+	  			<!-- Modal content -->
+	  			<div class="modal-content">
+	    			<form id="userLogin" name="login">
+	    				<label for="userEmail">Employee Email</label><br>
+	    				<input id="userEmail" name="email" type="email" onchange="validateEmail()"><br>
+	    				<label for="userPassword">Password</label><br>
+	    				<input id="userPassword" name="password" type="password"><br>
+	    				<input id="userRemeber" type="checkbox" name="remember" value="yes">Remeber me?<br>
+	    				<input id="userSubmit" name="submit" type="button" onclick="closeModal();" value="Log in" disabled>
+	    			</form>
+	    			<a href="">Trouble logging in?</a>
+	  			</div>
+	</main>
+</body>
+</html>

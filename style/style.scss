@@ -1,5 +1,12 @@
-$main-color: #dddddd;
+// Base, variables and mixins
+@import "base/normalize";
+@import "base/color";
 
-body{
-	background-color: $main-color;
-}
+// Layout
+
+// Modules
+@import "module/modal";
+
+// States
+
+// Thirdparty

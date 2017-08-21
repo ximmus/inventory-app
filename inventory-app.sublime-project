@@ -2,15 +2,19 @@
 	"folders":
 	[
 		{
-			"path": ".",
-			"name": "Inventory App",
-			"file_exclude_patterns": [
+			"file_exclude_patterns":
+			[
 				"*.sublime-project",
 				"*.sublime-workspace",
 				".gitignore",
 				".gitattributes",
 				"prepros-6.config"
-			]
+			],
+			"name": "Inventory App",
+			"path": "."
+		},
+		{
+			"path": "C:\\Users\\smixon\\Documents\\GitHub\\Sublime Projects\\components\\quizzer"
 		}
 	]
 }
